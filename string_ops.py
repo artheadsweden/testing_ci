@@ -6,6 +6,7 @@ def remove_vowels(word):
             new_word += character
     return new_word
 
+
 def reverse_string(word):
     return word[::-1]
 
