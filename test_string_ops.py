@@ -10,4 +10,4 @@ class TestStringOps:
 
     def test_translate_to_robber(self):
         result = "tothohisos isos fofunon"
-        assert string_ops.translate_to_robber("thIs is fun") == result
+        assert string_ops.translate_to_robber("this is fun") == result
