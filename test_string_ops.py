@@ -9,4 +9,5 @@ class TestStringOps:
         assert string_ops.reverse_string("Joakim") == "mikaoJ"
 
     def test_translate_to_robber(self):
-        assert string_ops.translate_to_robber("thIs is fun") == "tothohisos isos fofunon"
+        result = "tothohisos isos fofunon"
+        assert string_ops.translate_to_robber("thIs is fun") == result
