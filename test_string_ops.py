@@ -6,7 +6,7 @@ class TestStringOps:
         assert string_ops.remove_vowels("Joakim") == "Jkm"
 
     def test_remove_consonants(self):
-        assert string_ops.remove_vowels("Joakim") == "oai"
+        assert string_ops.remove_consonant("Joakim") == "oai"
 
     def test_reverse_string(self):
         assert string_ops.reverse_string("Joakim") == "mikaoJ"
