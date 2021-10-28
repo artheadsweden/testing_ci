@@ -24,9 +24,19 @@ def translate_to_robber(text):
     return robber_str
 
 
+def remove_consonant(word):
+    vowels = "aeiouy"
+    new_word = ""
+    for character in word:
+        if character.lower() in vowels:
+            new_word += character
+    return new_word
+
+
 def main():
     print(remove_vowels("Hello"))
     print(reverse_string("Hello"))
+    print(remove_consonant("Joakim"))
 
 
 if __name__ == '__main__':
